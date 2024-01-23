@@ -1,0 +1,159 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="format-detection" content="telephone=no" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/dist/output.css" rel="stylesheet">
+  <link href="/src/input.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,600;1,6..96,500&family=Darker+Grotesque:wght@300&family=Poppins:wght@100;200;700&display=swap" rel="stylesheet">
+  <title>Todd's Salon</title>
+</head>
+<body>
+<header>
+    <nav class="bg-transparent h-auto w-full flex flex-row items-center justify-center">
+        <a class="px-4 font-bodoni italic text-2xl tracking-widest" href="/src/index.html">home</a>
+        <a href="">
+            <img src="../assets/logo.svg" class="p-4 w-56 " alt="logo">
+        </a>
+        <a class="px-4 font-bodoni italic text-2xl tracking-widest" href="/src/contact.html">contact</a>
+    </nav>
+</header>
+<main class="h-auto">
+    <div class="slideshow">
+        <div class="h-96 lg:h-[46rem] w-full myImage fade relative">
+            <div class="h-full w-full brightness-75 bg-[url('/assets/slide2.jpg')] bg-fixed bg-center bg-no-repeat bg-cover" alt=""></div>
+            <div class="absolute inset-0 flex items-center justify-center">
+                <p class="text-white font-poppins px-4 text-center text-4xl md:text-6xl drop-shadow-2xl">expert hairstyling since <span class="italic">1996</span></p>
+            </div>
+        </div>
+        <div class="h-96 lg:h-[46rem] w-full myImage fade relative">
+            <div class="h-full w-full bg-[url('/assets/slide4.jpg')] bg-fixed bg-top bg-no-repeat bg-cover" alt=""></div>
+            <div class="absolute inset-0 flex items-center justify-center">
+                <p class="text-white font-poppins px-4 text-center object-center text-4xl md:text-6xl drop-shadow-2xl">27 years of hair <span class="italic">mastery</span></p>
+            </div>
+        </div>
+        <div class="h-96 lg:h-[46rem] w-full myImage fade relative">
+            <div src="/assets/slide5.jpg" class="h-full w-full brightness-75 bg-[url('/assets/slide5.jpg')] bg-fixed bg-top bg-no-repeat bg-cover" alt=""></div>
+            <div class="absolute inset-0 flex items-center justify-center">
+                <p class="text-white font-poppins px-4 text-center object-center text-4xl md:text-6xl drop-shadow-2xl">elevate your look at <span class="italic">Todd's Salon</span></p>
+            </div>
+        </div>
+    </div>
+    <!-- services -->
+    <div class="bg-black text-white flex flex-col justify-center items-center">
+        <h1 class="font-bodoni italic text-5xl py-10 lg:text-7xl">our services</h1>
+        <div class="grid grid-cols-2 xl:grid-cols-4 gap-7 md:gap-24 pb-16">
+            <!-- services 1 -->
+            <div class="relative">
+                <img src="/assets/services1.jpg" alt="" class="w-52 h-52 md:w-72 md:h-72 rounded-full object-cover saturate-0 ">
+                <div class="absolute inset-0 flex items-center justify-center">
+                    <p class="text-black font-poppins px-4 text-center text-2xl md:text-5xl drop-shadow-2xl">ombre</p>
+                </div>
+            </div>
+            <!-- services 2 -->
+            <div class="relative">
+                <img src="/assets/services3.jpg" alt="" class="w-52 h-52 md:w-72 md:h-72 rounded-full object-cover saturate-0 ">
+                <div class="absolute inset-0 flex items-center justify-center">
+                    <p class="text-black font-poppins px-4 text-center text-2xl md:text-5xl drop-shadow-2xl">balayage</p>
+                </div>
+            </div>
+            <!-- services 3 -->
+            <div class="relative">
+                <img src="/assets/services2.jpg" alt="" class="w-52 h-52 md:w-72 md:h-72 rounded-full object-cover saturate-0 ">
+                <div class="absolute inset-0 flex items-center justify-center">
+                    <p class="text-black font-poppins px-4 text-center text-2xl md:text-5xl drop-shadow-2xl">hairstyling</p>
+                </div>
+            </div>
+            <!-- services 4 -->
+            <div class="relative">
+                <img src="/assets/services4.jpg" alt="" class="w-52 h-52 md:w-72 md:h-72 rounded-full object-cover saturate-0 ">
+                <div class="absolute inset-0 flex items-center justify-center">
+                    <p class="text-black font-poppins px-4 text-center text-2xl md:text-5xl drop-shadow-2xl"> hair color</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- info -->
+    <div class="flex w-full h-auto py-12 flex-col md:flex-row items-baseline">
+        <!-- hours -->
+        <div class="w-full h-full p-8 spacing border-b-[1px] md:border-r-[1px] md:border-b-0 border-gray-300 flex flex-row md:flex-col justify-between md:justify-center items-center">
+            <div class="flex flex-col justify-center items-center">
+                <img src="/assets/clock.svg" class="w-24" alt="hours">
+                <h1 class="text-4xl py-4 font-bodoni text-center italic">hours</h1>
+            </div>
+            <div class="w-1/2 md:w-auto">
+                <div class="text-center">
+                    <div class="text-lg font-poppins">
+                        Monday:<span class="italic font-light"> closed</span>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <div class="text-lg font-poppins">
+                        Tues - Fri:<span class="italic font-light"> 9 AM - 6 PM</span>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <div class="text-lg font-poppins">
+                        Sat & Sun:<span class="italic font-light"> 9 AM - 5 PM</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- call us -->
+        <div class="w-full h-full p-8 flex flex-row md:flex-col justify-between md:justify-center items-center">
+            <div class="flex flex-col justify-center items-center">
+                <img src="/assets/phone.svg" class="w-24" alt="hours">
+                <h1 class="text-4xl py-4 font-bodoni text-center whitespace-nowrap italic">call us</h1>
+            </div>
+            <div class="w-1/2 md:w-auto">
+                <div class="text-center font-poppins text-lg">
+                    <div>
+                        For appointments & questions,
+                    </div>
+                    <a href="tel:16612873895">
+                        please call (661) 287-3895
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- location -->
+        <div class="w-full h-full p-8 border-t-[1px] md:border-l-[1px] md:border-t-0 border-gray-300 flex flex-row md:flex-col justify-between md:justify-center items-center">
+            <div class="flex flex-col justify-center items-center">
+                <img src="/assets/map.svg" class="w-24" alt="hours">
+                <h1 class="text-4xl py-4 font-bodoni text-center italic">location</h1>
+            </div>
+            <div class="w-1/2 md:w-auto">
+                <div class="text-center font-poppins text-lg">
+                    <div>We're located at</div>
+                    <div>23334 Lyons Ave Santa Clarita, CA 91321</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="h-auto">
+        <video class="w-full h-auto" src="/assets/video.mp4" autoplay loop muted></video>
+    </div>
+</main>
+<footer class="w-full h-full bg-black p-8 flex flex-row items-center justify-center text-slate-50">
+    <!-- logo -->
+    <img src="/assets/inverted-logo.svg" class="p-4 w-56" alt="logo">
+    <div class="flex flex-col">
+        <div class="flex flex-col py-2 text-xl md:text-2xl">
+            <!-- book an an appointment -->
+            <p class="font-poppins">book an appointment</p>
+            <a href="tel:16612873895" class="rounded-none font-bodoni italic">(661) 287-3895</a>
+        </div>
+        <div class="flex flex-col py-2 text-xl md:text-2xl">
+            <!-- visit our salon -->
+            <p class="font-poppins">visit our salon</p>
+            <p class="font-bodoni italic">23334 Lyons Ave</p>
+            <p class="font-bodoni italic">Santa Clarita, CA 91321</p>
+        </div>
+    </div>
+</footer>
+<script src="main.js"></script>
+</body>
+</html>

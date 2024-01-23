@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="format-detection" content="telephone=no" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/dist/output.css" rel="stylesheet">
+  <link href="/src/input.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,600;1,6..96,500&family=Darker+Grotesque:wght@300&family=Poppins:wght@100;200;700&display=swap" rel="stylesheet">
+  <title>Todd's Salon</title>
+</head>
+<body>
+<div>
+    <header>
+        <nav class="bg-transparent h-auto w-full flex flex-row items-center justify-center">
+            <a class="px-4 font-bodoni italic text-2xl tracking-widest" href="/src/index.html">home</a>
+            <a href="">
+                <img src="../assets/logo.svg" class="p-4 w-56 " alt="logo">
+            </a>
+            <a class="px-4 font-bodoni italic text-2xl tracking-widest" href="/src/contact.html">contact</a>
+        </nav>
+    </header>
+    <main class="h-auto">
+            <div class="relative">
+                <video class="w-full h-52 object-cover" src="/assets/silk.mp4" autoplay loop muted></video>
+                <div class=" absolute inset-0 flex flex-col items-center justify-center">
+                    <div class="text-5xl font-poppins text-white">
+                        Let's connect
+                    </div>
+                </div>
+            </div>
+            <div class="flex">
+                <div class="w-1/2 flex flex-col justify-center text-left items-center p-8">
+                        <div>
+                            <div class="text-2xl myPB">
+                                <div class="font-poppins">
+                                    For appointments & questions
+                                </div>
+                                <div class="font-bodoni italic myPT">
+                                    phone: (661) 287-3895
+                                </div>
+                            </div>
+                            <div class="text-2xl">
+                                <div class="font-poppins">
+                                    Our location
+                                </div>
+                                <div class="font-bodoni italic myPT">
+                                    2334 Lyons Ave, Santa Clarita,
+                                </div>
+                                <div class="font-bodoni italic">CA, 91321</div>
+                            </div>
+                        </div>
+                    </div>
+                <iframe class="w-1/2" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d105473.4405035436!2d-118.59527731806988!3d34.29839691642602!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2868cfc977069%3A0xbb0d3ff6ea76c5a1!2sTodd&#39;s%20Salon!5e0!3m2!1sen!2sus!4v1701981446008!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+    </main>
+    <footer class="w-full h-full bg-black p-8 flex flex-row items-center justify-center text-slate-50">
+        <!-- logo -->
+        <img src="/assets/inverted-logo.svg" class="p-4 w-56" alt="logo">
+        <div class="flex flex-col">
+            <div class="flex flex-col py-2 text-xl md:text-2xl">
+                <!-- book an an appointment -->
+                <p class="font-poppins">book an appointment</p>
+                <a href="tel:16612873895" class="rounded-none font-bodoni italic">(661) 287-3895</a>
+            </div>
+            <div class="flex flex-col py-2 text-xl md:text-2xl">
+                <!-- visit our salon -->
+                <p class="font-poppins">visit our salon</p>
+                <p class="font-bodoni italic">23334 Lyons Ave</p>
+                <p class="font-bodoni italic">Santa Clarita, CA 91321</p>
+            </div>
+        </div>
+    </footer>
+</div>
+<script src="main.js"></script>
+</body>
+</html>
